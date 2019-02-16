@@ -2,10 +2,11 @@ html {
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	font-family: Arial;
 }
 
 body {
-    background: url(../img/pavilhao_rosa_mota.jpg) center center no-repeat fixed;
+    background: url(../img/summit.jpg) center center no-repeat fixed;
     background-color: rgba(50,50,50,0.8);
     background-size: cover;
     padding: 0;
@@ -13,19 +14,84 @@ body {
 }
 
 #header_text {
-	width: 30%;
+	width: 15%;
 	margin-right: 65%;
 	margin-left: 5%;
 	text-align: left;
-	margin-top: 70vh;
+	margin-top: 3vh;
+	position: absolute;
+	background-color: red;
 }
 
 #header_text h1 {
 	color: white;
-	font-size: 4rem;
-	font-family: Arial;
+	font-size: 2rem;
 	white-space: nowrap;
+	color: yellow;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
+
+#embed_form {
+	white-space: nowrap;
+	position: absolute;
+	width: 18%;
+	margin-left: 65%;
+	margin-right: 5%;
+	margin-top: 70vh;
+	background-color: #6fd9ef;
+	color: yellow;
+    text-shadow: -1px 0 #6fd9ef, 0 1px #6fd9ef, 1px 0 #6fd9ef, 0 -1px #6fd9ef;
+    padding: 1rem 0;
+
+    display: none;
+}
+
+#embed_form h2 {
+	margin-top: 0;
+}
+
+#embed_form .mc-field-group *{
+	display: inline-block;
+}
+
+#embed_form .mc-field-group label {
+	font-weight: 700;
+	font-size: 0.8rem;
+	width: 40%;
+	margin-right: 1rem;
+	text-transform: uppercase;
+}
+
+#embed_form #submit_div {
+	margin-top: 0.5rem;
+}
+
+#embed_form #mc-embedded-subscribe {
+	background-color: red;
+	border: none;
+	font-weight: 700;
+	padding: 0.2rem 0.5rem;
+	color: yellow;
+}
+
+.jbox_box {
+	color: white;
+}
+
+
+.jbox_box .jBox-container .jBox-content{
+	background-color: blue;
+}
+
+.jbox_box .jBox-container .jBox-title{
+	background-color: red;
+}
+
+
+.jbox_box .jBox-container .jBox-content{
+	background-color: blue;
+}
+
 
 @media only screen and (max-width: 680px) {
 
