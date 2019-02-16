@@ -94,8 +94,33 @@ body {
 
 
 @media only screen and (max-width: 680px) {
+	#header_text {
+		width: 60%;
+	}
 
 	#header_text h1 {
-		font-size: 3rem;
+		font-size: 8vw;
+	}
+
+	#embed_form {
+		width: 70%;
+		margin-left: 5%;
+		margin-top: 75vh;
+	}
+
+	#embed_form .mc-field-group label {
+		margin-right: 2rem;
+	}
+
+	.jbox_box .jBox-container .jBox-title h2{
+		font-size: 6vw;
+	}
+
+	.jbox_box .jBox-container .jBox-title{
+		max-width: 300px !important;
+	}
+
+	.jbox_box .jBox-container .jBox-content{
+		max-width: 300px !important;
 	}
 }

@@ -47,10 +47,10 @@ setInterval(toggle_title_background, color_change_interval);
 
 var correct_btn = new jBox('Modal', {
   attach: '#trigger_form_btn',
-  title: 'Congratulations! You found the button!',
-  content: 'You have found the button and have unlocked the secret form on this website. Do you dare to fill it?',
+  title: '<h2>Congratulations! You found the button!</h2>',
+  content: '<p>You have found the button and have unlocked the secret form on this website.</p> <p>Do you dare to fill it?</p>',
   addClass: "jbox_box",
-  width: 500
+  maxWidth: 500
 });
 
 
@@ -58,7 +58,7 @@ var auto_trigger = new jBox('Modal', {
   title: 'Auto Triggered message',
   content: 'There is a secret in this website. Can you find it?',
   addClass: "jbox_box",
-  width: 500
+  maxWidth: 500
 });
 
 auto_trigger.open();
