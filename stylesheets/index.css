@@ -1,0 +1,35 @@
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+    background: url(../img/pavilhao_rosa_mota.jpg) center center no-repeat fixed;
+    background-color: rgba(50,50,50,0.8);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#header_text {
+	width: 30%;
+	margin-right: 65%;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 70vh;
+}
+
+#header_text h1 {
+	color: white;
+	font-size: 4rem;
+	font-family: Arial;
+	white-space: nowrap;
+}
+
+@media only screen and (max-width: 680px) {
+
+	#header_text h1 {
+		font-size: 3rem;
+	}
+}
